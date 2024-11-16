@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <!-- Подключение CSS Splide () -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+    <!--IconsScout icons-pack -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <title>Bayern Barber Shop</title>
+  </head>
+<body>
+  <!--Nav-->
+  <nav>
+    <div class="logo">
+      <a href="#">
+          Bayern <span>Barber</span>
+      </a>
+    </div>
+    <!--Toggle icon-->
+    <i class="uil uil-bars" id="toggle"></i>
+
+    <ul class="menu">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About us</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Pricing</a></li>
+      <li><a href="#">Contact</a></li>
+      <li>
+        <button class="btn"> <a href="#">Online reserv</a></button>
+      </li>
+    </ul>
+  </nav>
+  <!--Hero section-->
+  <section class="hero">
+    <div class="hero_title section_title">
+      <h3>Welcome to Bayern Barber</h3>
+      <h2>Discover You Unique & New Style</h2>
+      <p>
+        We believe that your hair is an expression of your personality. Our skilled stylists are here to help you unleash your true style
+      </p>
+      <ul>
+        <li>
+          01. Get Hair Style You Deserve
+        </li>
+        <li>
+          02. Perfect Hair Style 
+        </li>
+      </ul>
+      <div class="hero_btns">
+        <button class="btn">
+          <a href="#">Book Now</a>
+        </button>
+        <button class="btn">
+          <a href="#">Contact Now</a>
+        </button>
+      </div>
+    </div>  
+    <figure class="section_image">
+      <img src="/Image/hero-img.jpg" alt="hero">
+    </figure>
+  </section>
+  <!-- Features splide (horizontal scroll)-->
+  <div class="splide mySplide" id="mySplide">
+    <div class="splide__track">
+      <ul class="splide__list">
+        <li class="feature_tricker_splide splide__slide">
+          <img src="/Image/ticker-icon.svg" alt="icon ticker">
+          Hair Cut
+        </li>
+        <li class="feature_tricker_splide splide__slide">
+          <img src="/Image/ticker-icon.svg" alt="Dryer icon">
+          Hair Dryer
+        </li>
+        <li class="feature_tricker_splide splide__slide">
+          <img src="/Image/ticker-icon.svg" alt="Washing">
+          Hair Style
+        </li>
+        <li class="feature_tricker_splide splide__slide">
+          <img src="/Image/ticker-icon.svg" alt="Washing">
+          Hair Coloring
+        </li>
+        <li class="feature_tricker_splide splide__slide">
+          <img src="/Image/ticker-icon.svg" alt="Shaving">
+          Shaving
+        </li>
+        <li class="feature_tricker_splide splide__slide">
+          <img src="/Image/ticker-icon.svg" alt="Organic">
+          Organic Facial
+        </li>
+        <li class="feature_tricker_splide splide__slide">
+          <img src="/Image/ticker-icon.svg" alt="Shaping">
+          Eyebrow Shaping
+        </li>
+        <li class="feature_tricker_splide splide__slide">
+          <img src="/Image/ticker-icon.svg" alt="Washing">
+          Natural Color
+        </li>
+        <li class="feature_tricker_splide splide__slide">
+          <img src="/Image/ticker-icon.svg" alt="Washing">
+          Eyelash Tinting
+        </li>
+        <li class="feature_tricker_splide splide__slide">
+          <img src="/Image/ticker-icon.svg" alt="Washing">
+          Hair Higher
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!--About Us section-->
+  <section class="about">
+      <div class="about_page">
+        <figure class="about_img_1">
+          <img src="/Image/about-img-1.jpg" alt="about-img-1" style="border-radius: 155px 25px 55px 25px;">
+        </figure>
+        <div class="about_year_image">
+          <div class="about_year">
+            <p>Since</p>
+            <h4 class="counter">2019</h4>
+          </div>
+          <div class="about_img_2 section_image" style="transform: translate(0px, 10px); visibility: inherit;">
+            <img src="/Image/about-img-2.jpg" alt="about-img-2">
+          </div>
+        </div>
+      </div>
+      <div class="about_title section_title">
+        <h3>About Bayern Barber </h3>
+        <h2>Luxory Barber Salon Where You will Feel Unique</h2>
+        <p>
+          In the heart of Germany: our barbershop combines expert skill, modern style, and genuine hospitality to create an unforgettable grooming experience. From classic cuts to tailored beard care, we offer services designed to enhance every gentleman’s look and confidence.
+        </p>
+        <ul>
+          <li>
+            <span>01.</span>
+            The Hair cutting and styling with 5 years of experience
+          </li>
+          <li>
+            <span>02.</span>
+            Update the latest tecnhology and tendency in the world
+          </li>
+          <li>
+            <span>03.</span>
+            Use the best products from the TOP providers
+          </li>
+        </ul>
+        <button class="btn">
+          Read now
+        </button>
+      </div>
+  </section>
+  <!--Services-->
+  <section class="service">
+    <div class="service_title section_title">
+      <h3>Professional Services</h3>
+      <h2>We are experts in</h2>
+    </div>
+
+    <div class="service_wrap">
+      <div class="service_item">
+        <div class="service_icon section_icon"> 
+          <img src="/Image/service-1.svg" alt="img-service-1">
+        </div>
+        <div class="service_content section_content">
+          <h2>Cutting & Stylig</h2>
+          <p>From detailed trims to full transformations, we’re here to create a look that brings out your confidence and individuality.</p>
+        </div>
+      </div>
+      <div class="service_item">
+        <div class="service_icon section_icon"> 
+          <img src="/Image/service-2.svg" alt="img-service-1">
+        </div>
+        <div class="service_content section_content">
+          <h2>Hair Tratments</h2>
+          <p> Perfect for clients looking to maintain healthy hair or address specific concerns like dryness, damage, or lack</p>
+        </div>
+      </div>
+      <div class="service_item">
+        <div class="service_icon section_icon"> 
+          <img src="/Image/service-3.svg" alt="img-service-1">
+        </div>
+        <div class="service_content section_content">
+          <h2>Hair Coloring</h2>
+          <p> Whether you want a solid, dramatic tone or a blend of shades to complement your style, our team uses high-quality</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Feature section-->
+  <section class="feature"> 
+    <div class="feature_title section_title">
+      <h3>Why you choose us ?</h3>
+      <h2>Are you ready to make a big change ?</h2>
+      <div class="feature_wrap">
+        <div class="feature_item">
+          <div class="feature_icon">
+            <img src="/Image/whyus-1.svg" alt="us-1">
+          </div>
+          <div class="feature_content section_content">
+            <h2>Certified stylist </h2>
+            <p> Certified and skilled in the latest techniques, they bring precision and creativity
+              to every cut and color.
+            </p>
+          </div>
+        </div>
+        <div class="feature_item">
+          <div class="feature_icon">
+            <img src="/Image/whyus-2.svg" alt="us-2">
+          </div>
+          <div class="feature_content section_content">
+            <h2>100% Organic products </h2>
+            <p>
+              Visit us to explore our organic line and experience the difference of pure, naturally derived care for your hair!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <figure class="section_image">
+      <img src="/Image/video-image.jpg" alt="video">
+    </figure>
+  </section>
+  <!--Facts section-->
+  <section class="company_facts">
+    <div class="facts_title section_title">
+      <h3>Company Overview</h3>
+      <h2>Facts & Figures</h2>
+    </div>
+
+    <div class="facts_wrap">
+      <div class="counter_item">
+        <div class="counter_icon section_icon">
+          <img src="/Image/counter-1.svg" alt="counter-1">
+        </div>
+        <div class="counter_content section_content">
+          <h2>4+</h2>
+          <p>Years of experience</p>
+        </div>
+      </div>
+      <div class="counter_item">
+        <div class="counter_icon section_icon">
+          <img src="/Image/counter-2.svg" alt="counter-1">
+        </div>
+        <div class="counter_content section_content">
+          <h2>200+</h2>
+          <p>Company clients</p>
+        </div>
+
+      </div>
+      <div class="counter_item">
+        <div class="counter_icon section_icon">
+          <img src="/Image/counter-3.svg" alt="counter-1">
+        </div>
+        <div class="counter_content section_content">
+          <h2>15+</h2>
+          <p>Staff Members</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Photo gallery section ( SPLIDE.JS )-->
+  <section class="photo_gallery">
+    <div class="photo_gallery_title section_title">
+      <h3>Photo Gallery</h3>
+      <h4>Inside Look at our Salon</h4>
+    </div>
+
+    <div class="splide photo_gallery_slide">
+      <div class="splide__track">
+        <ul class="splide__list">
+          <li class="splide__slide">
+            <figure class="photo_gallery_image section_image">
+              <img src="/Image/photo-1.jpg" alt="1">
+            </figure>
+          </li>
+          <li class="splide__slide">
+            <figure class="photo_gallery_image section_image">
+              <img src="/Image/photo-2.jpg" alt="2">
+            </figure>
+          </li>
+          <li class="splide__slide">
+            <figure class="photo_gallery_image section_image">
+              <img src="/Image/photo-3.jpg" alt="2">
+            </figure>
+          </li>
+          <li class="splide__slide">
+            <figure class="photo_gallery_image section_image">
+              <img src="/Image/photo-4.jpg" alt="2">
+            </figure>
+          </li>
+          <li class="splide__slide">
+            <figure class="photo_gallery_image section_image">
+              <img src="/Image/photo-5.jpg" alt="2">
+            </figure>
+          </li>
+          <li class="splide__slide">
+            <figure class="photo_gallery_image section_image">
+              <img src="/Image/photo-6.jpg" alt="2">
+            </figure>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <!--Our beswt price section -->
+  <section class="our_best_price">
+    <div class="price_title section_title">
+      <h3>Price List</h3>
+      <h2>Our best prices</h2>
+    </div>
+
+    <div class="our_best_price_main">
+      <div class="price_card">
+        <div class="price_content">
+          <h2>Haircut</h2>
+          <p>Top haircut and price for you</p>
+        </div>
+        <div class="price_icon section_icon">
+          <p>$25</p>
+        </div>
+      </div>
+      <div class="price_card">
+        <div class="price_content">
+          <h2>Blow Dry & Curl</h2>
+          <p>Different colors includes in our Salon</p>
+        </div>
+        <div class="price_icon section_icon">
+          <p>$75</p>
+        </div>
+      </div>
+      <div class="price_card">
+        <div class="price_content">
+          <h2>Shampoo & Set</h2>
+          <p>Different various of Shampoo </p>
+        </div>
+        <div class="price_icon section_icon">
+          <p>$65</p>
+        </div>
+      </div>
+      <div class="price_card">
+        <div class="price_content">
+          <h2>Men's Haircut</h2>
+          <p>For all mans Top haircut and price for you</p>
+        </div>
+        <div class="price_icon section_icon">
+          <p>$35</p>
+        </div>
+      </div>
+      <div class="price_card">
+        <div class="price_content">
+          <h2>Natural Coloring</h2>
+          <p>Only natural color and products from world </p>
+        </div>
+        <div class="price_icon section_icon">
+          <p>$40</p>
+        </div>
+      </div>
+      <div class="price_card">
+        <div class="price_content">
+          <h3>Eyebrow Shaping</h3>
+          <p>Our stylist can make for you the best</p>
+        </div>
+        <div class="price_icon section_icon">
+          <p>$55</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Offers-->
+  <section class="offers">
+    <div class="offer_title section_title">
+      <h3>Gifts & Cards</h3>
+      <h2>Special Gifts & Cards</h2>
+    </div>
+    <div class="offers_main">
+      <div class="offer_card">
+        <div class="offer_content">
+          <h2 class="">Hair Cut</h2>
+          <p>Get a super offer for your new style with a top stylist</p>
+          <button class="btn">
+            <a href="#">Get Now</a>
+          </button>
+        </div>
+        <figure class="offer_image section_image">
+          <img src="/Image/gift-img-1.png" alt="gift-img-1">
+        </figure>
+      </div>
+      <div class="offer_card">
+        <div class="offer_content">
+          <h2>Hair Coloring</h2>
+          <p>So many colors include in our Barbershop Salon</p>
+          <button class="btn">
+            <a href="#">Booking Now</a>
+          </button>
+        </div>
+        <figure class="offer_image section_image">
+          <img src="/Image/gift-img-2.png" alt="gift-img-2">
+        </figure>
+      </div>
+    </div>
+  </section>
+  <!--Blog section-->
+  <section class="blog">
+    <div class="blog_title section_title">
+      <h2>Blog</h2>
+      <h3>Latest Tips & News</h3>
+    </div>
+
+    <div class="blog_wrap">
+      <div class="blog_card">
+        <div class="blog_image section_image">
+          <img src="/Image/post-1.jpg" alt="post-1">
+        </div>
+        <div class="blog_content">
+          <h3>Unlocking the Secrtets to Healthy, Luscious Locks.</h3>
+          <p>December 20, 2023</p>
+          <div class="blog_element">
+            <img src="/Image/icon-readmore.svg" alt="read-more">
+          </div>
+        </div>
+      </div>
+      <div class="blog_card">
+        <div class="blog_image section_image">
+          <img src="/Image/post-2.jpg" alt="post-2">
+        </div>
+        <div class="blog_content">
+          <h3>Trend alert: Hottest hairstyles for 2024</h3>
+          <p>November 12, 2023</p>
+          <div class="blog_element">
+            <img src="/Image/icon-readmore.svg" alt="read-more">
+          </div>
+        </div>
+      </div>
+      <div class="blog_card">
+        <div class="blog_image section_image">
+          <img src="/Image/post-3.jpg" alt="post-3">
+        </div>
+        <div class="blog_content">
+          <h3>Behind the Chair: A Day in the Life of our Stylyst</h3>
+          <p>April 18, 2023</p>
+          <div class="blog_element">
+            <img src="/Image/icon-readmore.svg" alt="read-more">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="contact">
+    <div class="contact_col">
+      <div class="contact_icon section_icon">
+        <img src="/Image/icon-email-phone.svg" alt="phone">
+      </div>
+      <div class="contact_info">
+        <h2>Get in Touch</h2>
+        <ul>
+          <li>
+            Phone: +491766869011
+          </li>
+          <li>
+            Email: Bayernbarber@gmail.com
+          </li>
+          <li>
+            Adress: Bayreuth, 95445
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="contact_col">
+      <div class="contact_icon section_icon">
+        <img src="/Image/icon-working-hours.svg" alt="Working">
+      </div>
+      <div class="contact_info">
+        <h2>Working hours:</h2>
+        <ul>
+          <li>
+            Mon-fri: 10:00 AM - 9 PM
+          </li>
+          <li>
+            Saturday 10:00 AM - 7:00 PM
+          </li>
+          <li>
+            Sunday 10:00 AM - 7:00 PM
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="contact_col">
+      <div class="contact_icon section_icon">
+        <img src="/Image/icon-location.svg" alt="Location">
+      </div>
+      <div class="contact_info">
+        <h2>Our Location</h2>
+        <ul>
+          <li>
+            Bayreuth, 95445
+          </li>
+          <li>
+            Unteres Tor 8.
+          </li>
+          <li>
+            Feel free in Salon
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="footer_left">
+      <div class="f_logo">
+        <a href="#">
+          Bayern <span>Barber</span>
+        </a>
+      </div>
+      <div class="social_icon">
+        <i class="uil uil-facebook-f"></i>
+        <i class="uil uil-instagram-alt"></i>
+        <i class="uil uil-twitter-alt"></i>
+      </div>
+    </div>
+    <div class="footer_right">
+      <ul class="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <p>License | 2024 Deutschland Bayreuth </p>
+    </div>
+  </footer>
+  <!--Auto scroll SPLIDE.JS -->
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-auto-scroll@0.5.3/dist/js/splide-extension-auto-scroll.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
